@@ -1,0 +1,58 @@
+.certifications-container {
+    padding: 20px;
+  }
+  
+  .certifications-container h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: underline;
+  }
+  
+  .certification-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .card-header {
+    background-color: #f7f9fc;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.2rem;
+  }
+  
+  .certification-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: underline; /* Underlining the certificate name */
+  }
+  
+  .certification-issuer {
+    font-style: italic;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .card-body {
+    padding: 15px;
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .card-body p {
+    margin: 0;
+  }
+  
+  .card-body a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .card-body a:hover {
+    text-decoration: underline;
+  }
+  

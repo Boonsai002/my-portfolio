@@ -1,0 +1,151 @@
+/* HomeButton Styles */
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 1em;  /* Increased horizontal padding */
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto; /* Ensures the width adjusts based on padding */
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 1.2em;  /* Slightly larger padding for bigger screen sizes */
+  }
+}
+
+/* Add space between the Home button and the profile picture */
+.top-division {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px; /* Add space above the profile section */
+}
+
+.top-division .button-54 {
+  margin-bottom: 15px; /* Space between the Home button and profile picture */
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 20%;
+    background-color: #255A5E; /* Teal Benjamin Moore */
+    font-family: Georgia, serif;
+    color: #F0EDE4; /* White Dove Benjamin Moore */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .top-division {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic {
+    width: 300px;  /* Increase the width */
+    height: 280px; /* Increase the height */
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+ 
+  
+  .name {
+    font-size: 2rem;
+    color: #F0EDE4;
+    margin: 10px 0;
+  }
+  
+  .contact {
+    font-size: 1rem;
+    color: #F0EDE4;
+    margin: 5px 0;
+  }
+  
+  /* Divider styles */
+  .divider {
+    border-top: 2px solid #F0EDE4; /* White Dove Benjamin Moore */
+    margin: 15px 0; /* Adds some space around the divider */
+    width: 80%; /* The divider will only reach near the edges */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Middle Division with buttons */
+  .middle-division {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+/* Style for buttons in sidebar */
+.sidebar-button {
+  background-color: transparent;
+  border: 2px solid #F0EDE4; /* Light border color */
+  color: #F0EDE4; /* Text color */
+  padding: 12px 20px; /* Adjust padding for better button sizing */
+  margin: 8px 0; /* Margin between buttons */
+  text-align: center; /* Center the text */
+  font-size: 1rem; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: all 0.3s ease; /* Smooth transition */
+  width: 100%; /* Make buttons fill the width of the container */
+  border-radius: 5px; /* Rounded corners for the button */
+}
+
+/* Hover effect for buttons */
+.sidebar-button:hover {
+  background-color: #F0EDE4; /* Light background on hover */
+  color: #255A5E; /* Change text color on hover */
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+  .sidebar-button {
+    font-size: 1.1rem; /* Increase font size for larger screens */
+    padding: 14px 25px; /* Increase padding for larger screens */
+  }
+}
+
+@media (min-width: 1200px) {
+  .sidebar-button {
+    font-size: 1.2rem; /* Further increase font size on very large screens */
+    padding: 16px 30px; /* Further increase padding for very large screens */
+  }
+}
+
+  
+  /* Bottom Division */
+  .bottom-division {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+  }
+  
+  .social-icon {
+    font-size: 1.8rem;
+    color: #F0EDE4; /* Icon color matches the text */
+    transition: all 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #f70b0b; /* Change color on hover to match the sidebar background */
+    transform: scale(1.2); /* Slight zoom effect on hover */
+  }
+  

@@ -1,0 +1,36 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+  width: 100%;   /* Full width of the viewport */
+}
+
+.sidebar {
+  width: 25%; /* Sidebar occupies 25% of the width */
+  background-color: #255A5E; /* Teal Benjamin Moore */
+  color: #F0EDE4; /* White Dove Benjamin Moore for text */
+  font-family: Georgia, serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Space out sections */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.content-container {
+  width: 75%; /* Content area occupies 75% of the width */
+  background-color: #F0EDE4; /* White Dove Benjamin Moore */
+  padding: 20px;
+  overflow-y: auto; /* Enable scrolling if content overflows */
+  box-sizing: border-box;
+}
+
+.content-area {
+  height: 100%; /* Ensure the content fills the container */
+  overflow-y: auto; /* Scrollable content if needed */
+  padding: 20px;
+  background-color: #FFFFFF; /* Inner content background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for content area */
+  border-radius: 8px;
+}

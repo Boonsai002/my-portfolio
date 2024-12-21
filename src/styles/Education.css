@@ -1,0 +1,54 @@
+.education-container {
+  padding: 20px;
+}
+
+.education-title {
+  font-size: 2.5rem;
+  color: #005f73;
+}
+
+.education-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adds space between the cards */
+}
+
+.education-card {
+  display: flex;
+  justify-content: space-between; /* Ensures content is spaced out */
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Adds space between each card */
+  width: 100%; /* Ensures the card takes up the available width */
+}
+
+.education-info {
+  flex: 2; /* Takes up more space for the text */
+  padding-right: 20px; /* Adds space between the text and the image */
+  white-space: nowrap; /* Prevents text from wrapping to the next line */
+}
+
+.education-degree {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.education-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Align the image to the right */
+  align-items: center; /* Vertically center the image */
+  max-width: 200px; /* Optional: Limits the width of the image */
+}
+
+.education-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block; /* Ensures the image is treated as a block-level element */
+}

@@ -1,0 +1,79 @@
+.projects-container {
+    padding: 20px;
+    text-align: center; /* Center-align the Projects heading */
+  }
+  
+  .projects-title {
+    font-size: 2.5rem;
+    color: #005f73;
+    margin-bottom: 20px;
+  }
+  
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: calc(100% / 2 - 20px); /* Two cards per row with space */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: justify; /* Justify the text inside cards */
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px); /* Raise card on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-image {
+    width: 100%;  /* Set the desired width */
+    height: 100%; /* Set the desired height */
+    object-fit: cover; /* Ensures the image covers the given dimensions without distortion */
+    border-radius: 8px; /* Optional: adds rounded corners to the image */
+    margin-right: 15px; /* Adds space between the image and text */
+  }
+  
+  
+  .project-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: teal;
+    text-decoration: underline; /* Underline the project title */
+  }
+  
+  .project-description,
+  .project-technologies,
+  .project-languages {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  
+  .project-link a {
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project-link a:hover {
+    text-decoration: underline;
+  }
+  

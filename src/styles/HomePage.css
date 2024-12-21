@@ -1,0 +1,46 @@
+.home-page-container {
+  padding: 20px;
+}
+
+.welcome-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #005f73;
+}
+
+.heading-top-left {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #264653;
+}
+
+.card {
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 10px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-text {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.card-text li,
+.card-text p {
+  margin: 5px 0;
+}
+
+.card-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.card-text a:hover {
+  text-decoration: underline;
+}

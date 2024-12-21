@@ -1,0 +1,62 @@
+.experience-container {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #005f73;
+}
+
+.experience-card {
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #eaf4f4;
+  border-bottom: 1px solid #d1e7e7;
+  border-radius: 10px 10px 0 0;
+}
+
+.header-left .company-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #264653;
+}
+
+.header-center .internship-type {
+  font-size: 1.2rem;
+  color: #2a9d8f;
+  font-weight: 600;
+}
+
+.header-right .duration {
+  font-size: 1rem;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-text {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.card-text li {
+  margin: 5px 0;
+}
+
+.card-text li::before {
+  content: "• ";
+  color: #2a9d8f;
+}
