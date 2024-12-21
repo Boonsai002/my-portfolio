@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.9bc1779c.css",
+    "main.js": "/my-portfolio/static/js/main.49b3efb9.js",
+    "static/js/488.21a3b654.chunk.js": "/my-portfolio/static/js/488.21a3b654.chunk.js",
+    "static/media/ToDoList.png": "/my-portfolio/static/media/ToDoList.f4d92aa6e3fa9661685e.png",
+    "static/media/CropRecommendation.png": "/my-portfolio/static/media/CropRecommendation.7c95e209cb062956ee34.png",
+    "static/media/MilkBoil.png": "/my-portfolio/static/media/MilkBoil.f93ed900eac06cb3e43c.png",
+    "static/media/MovieReview.png": "/my-portfolio/static/media/MovieReview.e5e4e09b97c934d28140.png",
+    "static/media/LibraryManagement.png": "/my-portfolio/static/media/LibraryManagement.cbbebf30a777fdd39785.png",
+    "static/media/FakeNews.png": "/my-portfolio/static/media/FakeNews.68b4286c4385de71c264.png",
+    "static/media/EmailSystem.png": "/my-portfolio/static/media/EmailSystem.63c71fd55451eb0ccb10.png",
+    "static/media/ProfilePic.jpeg": "/my-portfolio/static/media/ProfilePic.6b4e0692b6ea0c0669ac.jpeg",
+    "static/media/Viswasai.jpg": "/my-portfolio/static/media/Viswasai.233394ba7e5b9c27157e.jpg",
+    "static/media/AITS.png": "/my-portfolio/static/media/AITS.ee3905bc9b2a103f3bd4.png",
+    "static/media/school.png": "/my-portfolio/static/media/school.7157025177bb7036b43c.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.9bc1779c.css.map": "/my-portfolio/static/css/main.9bc1779c.css.map",
+    "main.49b3efb9.js.map": "/my-portfolio/static/js/main.49b3efb9.js.map",
+    "488.21a3b654.chunk.js.map": "/my-portfolio/static/js/488.21a3b654.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bc1779c.css",
+    "static/js/main.49b3efb9.js"
+  ]
+}
